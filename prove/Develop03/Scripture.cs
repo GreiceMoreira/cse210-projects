@@ -1,7 +1,7 @@
 public class Scripture
 {
-    public Reference _reference;
-    public List<Word> _scriptureText = new List<Word>();
+    private Reference _reference;
+    private List<Word> _scriptureText = new List<Word>();
 
     private void CreateList(string scriptureText)
     {
