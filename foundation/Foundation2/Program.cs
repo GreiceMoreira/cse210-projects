@@ -27,42 +27,27 @@ class Program
         order3.AddInList(product3);
         order3.AddInList(product2);
 
-
         Console.WriteLine($"shipping: {order1.Shipping()}");
-        // Exibindo a etiqueta de embalagem
         Console.WriteLine("\nPacking Label:");
         Console.WriteLine(order1.PackingLabel());
-
-        // Exibindo a etiqueta de envio
         Console.WriteLine("\nShipping Label:");
         Console.WriteLine(order1.ShippingLabel());
         Console.WriteLine("Total Cost: $" + order1.GetTotalCost());
         Console.WriteLine("--------------");
 
         Console.WriteLine($"shipping: {order2.Shipping()}");
-        // Exibindo a etiqueta de embalagem
         Console.WriteLine("\nPacking Label:");
         Console.WriteLine(order2.PackingLabel());
-
-        // Exibindo a etiqueta de envio
         Console.WriteLine("\nShipping Label:");
         Console.WriteLine(order2.ShippingLabel());
         Console.WriteLine("Total Cost: $" + order2.GetTotalCost());
-
-
         Console.WriteLine("--------------");
 
-        
-        // Exibindo a etiqueta de embalagem
         Console.WriteLine("\nPacking Label:");
         Console.WriteLine(order3.PackingLabel());
-
-        // Exibindo a etiqueta de envio
         Console.WriteLine("\nShipping Label:");
         Console.WriteLine(order3.ShippingLabel());
         Console.WriteLine("Total Cost: $" + order3.GetTotalCost());
-
-
 
         //Once you have created these classes, 
         //write a program that creates at least two orders with a 2-3 products each. 

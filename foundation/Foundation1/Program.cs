@@ -5,14 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-
-        // Assume you have been hired by a company that monitors product awareness by tracking the placement of their products in YouTube videos. They want you to write a program that can help them work with the tens of thousands of videos they have identified as well as the comments on them.//
-        // Once you have the classes in place, write a program that creates 3-4 videos, 
-        //sets the appropriate values, and for each one add a list of 3-4 comments 
-        //(with the commenter's name and text). Put each of these videos in a list.
-
 //video 01
-
         Comment comment1 = new Comment("Greice Moreira" , "Filme maravilhoso");
         Comment comment2 = new Comment("Isabella Moreira" , "Quero saber o final");
         Comment comment3 = new Comment( "Helena Moreira" , "Cade o bebe yoda? ops grogu");
