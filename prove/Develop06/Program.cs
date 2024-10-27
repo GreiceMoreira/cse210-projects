@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop06 World!");
+        Console.Clear();
+        var start = new GoalManager();
+        start.Start();
     }
 }

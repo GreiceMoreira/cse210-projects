@@ -1,0 +1,4 @@
+10
+SimpleGoal:Discursar*Discursar na capela *30*False
+EternalGoal:Estudar as escrituras*Durante 10 min *20
+ChecklistGoal:Templo*Fazer ordenanças*50*400*0*3
